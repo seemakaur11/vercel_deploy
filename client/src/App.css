@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+
+.forgot-password-paragraph{
+  padding-top: 15px;
+  margin-bottom: -5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Forgot Password CSS Start */
+.forgot-password-input{
+  padding: 14px 25px 14px 25px;
+  width: 50%;
+  color: black;
+  box-shadow: 2px 2px 2px rgb(180, 177, 177);
+  border: 2px solid #99634a;
+  outline: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.forgot-password-btn{
+  margin-top: 40px;
+  border: none;
+  border-radius: 2px;
+  padding: 13px 40px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #864c31;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forgot-password-text{
+  font-size: 43px;
+  font-weight:800 ;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }

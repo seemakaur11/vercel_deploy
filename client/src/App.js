@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import ForgotPassword from './components/ForgotPassword';
 
 function App() {
   return (
     <div className='App'>
-      <h1>pls deploy my code </h1>
+      <ForgotPassword />
     </div>
   );
 }
