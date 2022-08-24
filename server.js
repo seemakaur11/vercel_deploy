@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-app.get('/', (req, res) => res.send('hello seema'));
+// app.get('/', (req, res) => res.send('hello seema'));
 
 if (process.env.NODE_ENV === 'production') {
   //set static folder
